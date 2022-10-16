@@ -1,0 +1,8 @@
+{
+    "airpurifiermiot": [
+        "zhimi.airpurifier.mb3", "zhimi.airpurifier.mb4"
+    ],
+    "airhumidifierjsqs": [
+        "deerma.humidifier.jsq5"
+    ]
+}

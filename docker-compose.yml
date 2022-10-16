@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  app:
+    env_file:
+      - .env
+    image: tanasecosminromeo/local-iot-api
+    build: .
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./integrations.json:/home/app/integrations.json
+    ports:
+      - "3000:3000"

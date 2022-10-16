@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "watch": ["src/"],
+    "ignore": ["logs/", "docker/", ".git/", ".cache/"],
+    "ext": "js,json",
+    "execMap": {
+        "js": "node"
+    }
+}
